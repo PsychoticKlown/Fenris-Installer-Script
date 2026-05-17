@@ -1,6 +1,6 @@
 #!/bin/bash
 ### Description: Fenris-Debian install
-### Originally written for Debian by: Demonslayer Azaph - eveonline.com on 2026-05-10 v1.0
+### Originally written for Debian by: Demonslayer Azaph - https://forums.eveonline.com/t/eve-with-just-wine-privacy-friendly/511392 on 2026-05-10 v1.0
 ### Version v0.0.1 2026-05-16 - PsychoticKlown (Made 3 more widely usable scripts for various deb distributions including Kali)
 
 ### Boilerplate Warning
