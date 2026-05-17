@@ -18,10 +18,16 @@ scriptdate="2026-05-14"
 
 set -euo pipefail
 
-# 1. Kali Safety Environment Guard
+# 1. Root Safety Environment Guard
+
 if [ "$EUID" -eq 0 ]; then
-    echo "ERROR: Wine cannot run safely as root on Kali Linux."
-    echo "Please switch to a standard user account (e.g., su - kali) and run the script again."
+    DISTRO_NAME="your Linux distribution"
+    if [ -f /etc/os-release ]; then
+        # Extract a clean, user-friendly distribution name
+        DISTRO_NAME=$(grep -E '^NAME=' /etc/os-release | cut -d= -f2 | tr -d '"')
+    fi
+    echo "ERROR: Wine cannot run safely as root on $DISTRO_NAME."
+    echo "Please switch to a standard user account and run the script again."
     exit 1
 fi
 
