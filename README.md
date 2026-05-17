@@ -31,7 +31,7 @@ While the terminal displays tracking updates and progress markers, it is activel
 
 ## 🚀 How to Run
 
-1. Clone or download your desired script (`EO-Install-Script.sh` or `EF-Install-Script.sh`).
+1. Clone or download `EO-Install-Script.sh`.
 2. Give the file execution permissions:
    ```bash
    chmod +x EO-Install-Script.sh
@@ -42,6 +42,21 @@ While the terminal displays tracking updates and progress markers, it is activel
    ```
 
 ---
+
+or
+
+1. Clone or download `EF-Install-Script.sh`.
+2. Give the file execution permissions:
+   ```bash
+   chmod +x EF-Install-Script.sh
+   ```
+3. Execute the script as a standard user (**do not run as root**):
+   ```bash
+   ./EF-Install-Script.sh
+   ```
+
+---
+
 
 ## 📝 Credits & Boilerplate
 
