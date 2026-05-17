@@ -5,7 +5,8 @@
 [![Wine Staging](https://shields.io)](https://winehq.org)
 
 A collection of bulletproof, headless deployment installation scripts built to cleanly install **EVE Online** and **EVE Frontier** on Debian-based distributions (including Kali Linux and Ubuntu) without breaking, downgrading, or touching your proprietary graphics drivers.
-**SPECIOAL NOTE** Only bypasses GPU for install, when done and you get your shortcut, it runs normal with your GPU!
+---
+**SPECIAL NOTE** Only bypasses GPU for install, when done and you get your shortcut, it runs normal with your GPU!
 ---
 
 ## ⏳ A Note on Patience During Installation
