@@ -60,7 +60,7 @@ or
 
 ## 📝 Credits & Boilerplate
 
-* **Originally written for Debian by:** Demonslayer Azaph - eveonline.com on 2026-05-10 v1.0
+* **Originally written for Debian by:** Demonslayer Azaph - [eveonline.com](https://forums.eveonline.com/t/eve-with-just-wine-privacy-friendly/511392) on 2026-05-10 v1.0
 * **Modified for wide Debian/Kali compatibility by:** PsychoticKlown (2026-05-16)
 
 ### Boilerplate Warning
