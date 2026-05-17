@@ -13,7 +13,7 @@
 #WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-scriptversion="1.1.0"
+scriptversion="0.0.1"
 scriptdate="2026-05-14"
 
 set -euo pipefail
