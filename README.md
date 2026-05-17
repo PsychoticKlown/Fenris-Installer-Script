@@ -28,6 +28,20 @@ While the terminal displays tracking updates and progress markers, it is activel
 
 ---
 
+## 📋 Prerequisites
+
+Before running the installation scripts, your host system must have the required system compatibility layers and extraction utilities installed. Run the following command in your terminal to pull the mandatory packages:
+
+```bash
+sudo apt update && sudo apt install -y wine-staging winetricks p7zip-full
+```
+
+* **`wine-staging`**: Provides the advanced Windows API translation layer required to run the game client environments.
+* **`winetricks`**: Automates configuration steps and injects mandatory runtime libraries directly into your Wine prefix.
+* **`7z` (`p7zip-full`)**: Extractor engine used by the script to dissect setup files and pull out hidden game files seamlessly.
+
+---
+
 ## 🚀 How to Run
 
 1. Clone or download `EO-Install-Script.sh`.
