@@ -1,9 +1,8 @@
 # 🛸 Fenris-Debian: Automated EVE Online & EVE Frontier Clean Installers
 
-[![Shell Script](https://shields.io)](https://gnu.org)
-[![Platform](https://shields.io)](https://debian.org)
-[![Wine Staging](https://shields.io)](https://winehq.org)
-
+<a href="https://gnu.org"><img src="https://shields.io" alt="Shell Script"></a>
+<a href="https://debian.org"><img src="https://shields.io" alt="Platform"></a>
+<a href="https://winehq.org"><img src="https://shields.io" alt="Wine Staging"></a>
 
 A collection of bulletproof, headless deployment installation scripts built to cleanly install **EVE Online** and **EVE Frontier** on Debian-based distributions (including Kali Linux and Ubuntu) without breaking, downgrading, or touching your proprietary graphics drivers.
 ---
