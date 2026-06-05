@@ -10,8 +10,15 @@ An open-source collection of bulletproof, headless deployment scripts built to c
 *(Note: Forensics or immutable sandboxed systems like Tails, Whonix, GParted-Live, or Clonezilla are unsupported due to read-only environments).*
 
 
-[👉 Click here to read the Multi-Distro Troubleshooting-Guide](./TROUBLESHOOTING-Guide.md)
-[👉 Click here to read the Multi-Account Management Wiki](./WiKi.md)
+<p align="center">
+  🌐 🔗 [👉 Click here to read the Multi-Distro Troubleshooting Guide 👈](./TROUBLESHOOTING-Guide.md) 🔗 🌐
+</p>
+
+<p align="center">
+  🌐 🔗 [👉 Click here to read the Multi-Account Management Wiki 👈](./WiKi.md) 🔗 🌐
+</p>
+
+
 
 This utility simplifies **Linux gaming setup** by bypassing heavy third-party managers (like Steam or Lutris) while keeping your proprietary NVIDIA or AMD graphics drivers completely untouched during installation.
 
