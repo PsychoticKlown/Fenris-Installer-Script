@@ -10,12 +10,9 @@ An open-source collection of bulletproof, headless deployment scripts built to c
 *(Note: Forensics or immutable sandboxed systems like Tails, Whonix, GParted-Live, or Clonezilla are unsupported due to read-only environments).*
 
 
-<p align="center">
 [👉 Click here to read the Multi-Distro Troubleshooting-Guide](./TROUBLESHOOTING-Guide.md)
-</p>
-<p align="center">
+
 [👉 Click here to read the Multi-Account Management Wiki](./WiKi.md)
-</p>
 
 
 
