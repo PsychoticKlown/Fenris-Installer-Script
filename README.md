@@ -11,11 +11,10 @@ An open-source collection of bulletproof, headless deployment scripts built to c
 
 
 <p align="center">
-  🌐 🔗 [👉 Click here to read the Multi-Distro Troubleshooting Guide 👈](./TROUBLESHOOTING-Guide.md) 🔗 🌐
+[👉 Click here to read the Multi-Distro Troubleshooting-Guide](./TROUBLESHOOTING-Guide.md)
 </p>
-
 <p align="center">
-  🌐 🔗 [👉 Click here to read the Multi-Account Management Wiki 👈](./WiKi.md) 🔗 🌐
+[👉 Click here to read the Multi-Account Management Wiki](./WiKi.md)
 </p>
 
 
