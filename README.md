@@ -1,11 +1,23 @@
-# 🛸 Fenris-Debian: Automated EVE Online & EVE Frontier Clean Installers
+# 🛸 Fenris-Debian: Automated EVE Online Linux & EVE Frontier Linux Clean Installers
+
+<!-- Google SEO Signals -->
+<!-- Keywords: EVE Online Linux, EVE Frontier Linux, Linux Gaming, Debian EVE Online, Kali Linux EVE Frontier -->
 
 <a href="https://gnu.org"><img src="https://img.shields.io/badge/Shell_Script-GNU-blue?logo=gnu" alt="Shell Script"></a> <a href="https://debian.org"><img src="https://img.shields.io/badge/Platform-Debian-red?logo=debian" alt="Platform"></a> <a href="https://winehq.org"><img src="https://img.shields.io/badge/Wine_Staging-Wine-purple?logo=wine" alt="Wine Staging"></a>
 
-A collection of bulletproof, headless deployment installation scripts built to cleanly install **EVE Online** and **EVE Frontier** on Debian-based distributions (including Kali Linux and Ubuntu) without breaking, downgrading, or touching your proprietary graphics drivers.
+An open-source collection of bulletproof, headless deployment scripts built to cleanly install **EVE Online on Linux** and **EVE Frontier on Linux** (specifically Debian-based distributions, including Kali Linux and Ubuntu). 
+
+This utility simplifies **Linux gaming setup** by bypassing heavy third-party managers (like Steam or Lutris) while keeping your proprietary NVIDIA or AMD graphics drivers completely untouched during installation.
+
 ---
-**SPECIAL NOTE** Only bypasses GPU for install, when done and you get your shortcut, it runs normal with your GPU!
+**SPECIAL NOTE:** This script only bypasses your GPU during the installation phase. Once installation completes and your desktop shortcut is generated, the game client runs normally using your native graphics hardware acceleration!
 ---
+
+## 🔍 Why use Fenris for EVE Online & EVE Frontier on Linux?
+
+Many Linux players struggle with launcher crashes or broken graphics configurations when running **EVE Online** or the new **EVE Frontier** on Debian-based distributions. Traditional Linux gaming runners often alter systemic system paths. 
+
+The **Fenris Installer Script** isolates the entire setup engine inside a temporary, software-driven sandbox, ensuring a perfect installation every time without interfering with your system's desktop display drivers.
 
 ## ⏳ A Note on Patience During Installation
 
@@ -30,7 +42,7 @@ While the terminal displays tracking updates and progress markers, it is activel
 
 ## 📋 Prerequisites
 
-Before running the installation scripts, your host system must have the required system compatibility layers and extraction utilities installed. Run the following command in your terminal to pull the mandatory packages:
+Before running the installation scripts, your host system must have the required system compatibility layers and extraction utilities installed. Run the following command in your terminal to pull the mandatory packages for **Linux EVE Online** setups:
 
 ```bash
 sudo apt update && sudo apt install -y wine-staging winetricks p7zip-full
@@ -44,6 +56,7 @@ sudo apt update && sudo apt install -y wine-staging winetricks p7zip-full
 
 ## 🚀 How to Run
 
+### For EVE Online Linux Installation:
 1. Clone or download `EO-Install-Script.sh`.
 2. Give the file execution permissions:
    ```bash
@@ -56,8 +69,7 @@ sudo apt update && sudo apt install -y wine-staging winetricks p7zip-full
 
 ---
 
-or
-
+### For EVE Frontier Linux Installation:
 1. Clone or download `EF-Install-Script.sh`.
 2. Give the file execution permissions:
    ```bash
@@ -69,18 +81,25 @@ or
    ```
 ---
 
-**DO NOT FORGET** For best performance, in launcher settings, Disable "Launcher Hardware Accelleration" afterwards go from Eve Launcher settings to Eve Online Settings Or Eve Frontier settings, Enable "Download the Full EVE Game Client" and then lastly under Select DirectX Version select DirectX 11
+## ⚙️ Post-Installation Game Engine Optimization
+
+**DO NOT FORGET:** For the best performance under Wine on Linux, open your launcher settings and:
+1. Disable **"Launcher Hardware Acceleration"**.
+2. Navigate to your specific game profile settings (*EVE Online Settings* or *EVE Frontier Settings*).
+3. Enable **"Download the Full EVE Game Client"**.
+4. Under **Select DirectX Version**, ensure **DirectX 11** is selected.
 
 ---
 
-Want to migrate your files from Steam? Here's an excellent guide [Eve Online - Copy User Interface & Settings Across Multiple Accounts](https://www.youtube.com/watch?v=COzZeYtUUIM&t=18s) once you understand this, you'll see it's easy to do the same for Lutris
+### Migrating Profiles & Settings
+Want to migrate your existing settings from Steam or Lutris configurations? Check out this guide: [Eve Online - Copy User Interface & Settings Across Multiple Accounts](https://www.youtube.com/watch?v=COzZeYtUUIM&t=18s). Once you understand the folder architecture under Wine, doing the same for this custom prefix or Lutris is highly straightforward.
 
 ---
 
 ## 📝 Credits & Boilerplate
 
-* **Originally written for Debian by:** Demonslayer Azaph - [eveonline.com](https://forums.eveonline.com/t/eve-with-just-wine-privacy-friendly/511392) on 2026-05-10 v1.0
-* **Modified for wide Debian/Kali compatibility by:** PsychoticKlown (2026-05-16)
+* **Originally written for Debian by:** Demonslayer Azaph - [eveonline.com forums](https://forums.eveonline.com/t/eve-with-just-wine-privacy-friendly/511392) on 2026-05-10 v1.0
+* **Modified for wide Debian/Kali Linux compatibility by:** PsychoticKlown (2026-05-16)
 
 ### Boilerplate Warning
 ```text
