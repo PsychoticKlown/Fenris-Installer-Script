@@ -5,7 +5,9 @@
 
 <a href="https://gnu.org"><img src="https://img.shields.io/badge/Shell_Script-GNU-blue?logo=gnu" alt="Shell Script"></a> <a href="https://debian.org"><img src="https://img.shields.io/badge/Platform-Debian-red?logo=debian" alt="Platform"></a> <a href="https://winehq.org"><img src="https://img.shields.io/badge/Wine_Staging-Wine-purple?logo=wine" alt="Wine Staging"></a>
 
-An open-source collection of bulletproof, headless deployment scripts built to cleanly install **EVE Online on Linux** and **EVE Frontier on Linux** (specifically Debian-based distributions, including Kali Linux and Ubuntu). 
+An open-source collection of bulletproof, headless deployment scripts built to cleanly install **EVE Online on Linux** and **EVE Frontier on Linux** (specifically desktop Debian-based distributions, including: `bodhi-linux`, `debian-bookworm`, `debian-trixie`, `deepin`, `kali-linux`, `linux-mint-debian-edition`, `lmde`, `mx-linux`, `parrot-os`, `peppermint-os`, `pop-os`, `sparkylinux`, and `ubuntu`). 
+
+*(Note: Forensics or immutable sandboxed systems like Tails, Whonix, GParted-Live, or Clonezilla are unsupported due to read-only environments).*
 
 This utility simplifies **Linux gaming setup** by bypassing heavy third-party managers (like Steam or Lutris) while keeping your proprietary NVIDIA or AMD graphics drivers completely untouched during installation.
 
